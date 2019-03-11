@@ -1,13 +1,19 @@
 <template>
-    <div id="app">{{text}}</div>
+    <div id="app">
+        {{text}}
+    </div>
 </template>
+
 <script>
     export default {
+        name:'app',
         data() {
             return {
-                text: 'for test/how can I do for you'
+                text: '以下是测试内容'
             }
         }
     }
 </script>
-<style></style>
+<style>
+
+</style>

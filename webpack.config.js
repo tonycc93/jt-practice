@@ -32,6 +32,14 @@ const config = {
                 ]
             },
             {
+                test: /\.scss$/, // 处理scss文件
+                use: [
+                    'scss-loader',
+                    'style-loader',
+                    'css-loader'
+                ]
+            },
+            {
                 test: /\.(gif|jpg|jpeg|png|svg)$/, // 处理图片文件
                 use: [{
                     loader: 'url-loader',
