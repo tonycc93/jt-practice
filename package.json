@@ -1,0 +1,19 @@
+{
+  "name": "jt-practice",
+  "version": "1.0.0",
+  "description": "jt`s personal practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonycc93/jt-practice.git"
+  },
+  "author": "jt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonycc93/jt-practice/issues"
+  },
+  "homepage": "https://github.com/tonycc93/jt-practice#readme"
+}
